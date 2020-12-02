@@ -1,3 +1,6 @@
+# Advent of Code 2020 Day 2 Part 1 solution
+# Cyrus Sadeghi
+
 def main():
     passwords = open('input.txt', 'r')
     valid_passwords = 0

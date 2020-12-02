@@ -1,3 +1,6 @@
+# Advent of Code 2020 Day 1 Part 2 solution
+# Cyrus Sadeghi
+
 def find_numbers(expenses):	
     for expense1 in expenses:
         for expense2 in expenses:

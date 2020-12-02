@@ -1,3 +1,6 @@
+# Advent of Code 2020 Day 2 Part 2 solution
+# Cyrus Sadeghi
+
 def main():
     passwords = open('input.txt', 'r')
     valid_passwords = 0
@@ -11,6 +14,7 @@ def main():
 
         pos_1_valid = pw_data[pw_pos_1 - 1] == pw_restrict
         pos_2_valid = pw_data[pw_pos_2 - 1] == pw_restrict
+
         if (pos_1_valid == True and pos_2_valid == False) or (pos_1_valid == False and pos_2_valid == True):
             valid_passwords = valid_passwords + 1
 

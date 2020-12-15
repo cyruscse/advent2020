@@ -1,4 +1,4 @@
-# Advent of Code 2020 Day 15 Part 1 solution
+# Advent of Code 2020 Day 15 Part 2 solution
 # Cyrus Sadeghi
 
 def main():

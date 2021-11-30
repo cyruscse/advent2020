@@ -38,7 +38,7 @@ def test_rule(rules, idx, str):
     return(match, str)
 
 def main():
-    in_file = open('input.txt', 'r')
+    in_file = open('part2input.txt', 'r')
     rules = dict()
     inputs = list()
     reading_inputs = False
